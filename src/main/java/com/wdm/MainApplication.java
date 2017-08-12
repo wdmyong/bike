@@ -1,16 +1,13 @@
 package com.wdm;
 
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import com.wdm.Factory.HubeiBikeComponentFactory;
-import com.wdm.Factory.HubeiBikeFactory;
-import com.wdm.Factory.HunanBikeComponentFactory;
-import com.wdm.Factory.HunanBikeFactory;
+import com.wdm.factory.HubeiBikeComponentFactory;
+import com.wdm.factory.HubeiBikeFactory;
+import com.wdm.factory.HunanBikeComponentFactory;
+import com.wdm.factory.HunanBikeFactory;
 
 /*
  * @author wdmyong 2017/07/26
  */
-@SpringBootApplication
 public class MainApplication {
 
     public static void main(String[] args) {

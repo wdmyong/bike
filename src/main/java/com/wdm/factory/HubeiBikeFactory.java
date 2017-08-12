@@ -1,13 +1,13 @@
-package com.wdm.Factory;
+package com.wdm.factory;
 
 import com.wdm.model.Bike;
 import com.wdm.model.HunanBike;
 
-public class HunanBikeFactory extends BikeFatory {
+public class HubeiBikeFactory extends BikeFatory {
 
     private BikeComponentFactory bikeComponentFactory;
 
-    public HunanBikeFactory(BikeComponentFactory factory) {
+    public HubeiBikeFactory(BikeComponentFactory factory) {
         bikeComponentFactory = factory;
     }
 
@@ -24,7 +24,6 @@ public class HunanBikeFactory extends BikeFatory {
 
     @Override
     protected void addWord() {
-        bike.setWord("hunan bike");
+        bike.setWord("hubei bike");
     }
-
 }

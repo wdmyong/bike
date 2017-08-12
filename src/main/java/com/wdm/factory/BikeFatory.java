@@ -1,4 +1,4 @@
-package com.wdm.Factory;
+package com.wdm.factory;
 
 import java.util.concurrent.atomic.AtomicLong;
 

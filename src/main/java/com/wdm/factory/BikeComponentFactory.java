@@ -1,4 +1,4 @@
-package com.wdm.Factory;
+package com.wdm.factory;
 
 import com.wdm.model.component.Basket;
 import com.wdm.model.component.Frame;
