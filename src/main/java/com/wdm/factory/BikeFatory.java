@@ -15,14 +15,21 @@ public abstract class BikeFatory {
     Bike bike;
 
     public Bike orderBike() {
-        bike = createBike();
+        createBike();
         addColor();
         addWord();
         return bike;
     }
 
-    abstract protected Bike createBike();
+    abstract protected void createBike();
 
+    protected void processBike(BikeComponentFactory bikeComponentFactory) {
+        bike.setNumber(ATOMIC_LONG.incrementAndGet());
+        bike.setWheel(bikeComponentFactory.createWheel());
+        bike.setFrame(bikeComponentFactory.createFrame());
+        bike.setHandle(bikeComponentFactory.createHandle());
+        bike.setBasket(bikeComponentFactory.createBasket());
+    }
     protected void addColor() {
         bike.setColor(Color.DEFAULT);
     }

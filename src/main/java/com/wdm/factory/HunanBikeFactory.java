@@ -12,14 +12,9 @@ public class HunanBikeFactory extends BikeFatory {
     }
 
     @Override
-    protected Bike createBike() {
-        Bike bike = new HunanBike();
-        bike.setNumber(ATOMIC_LONG.incrementAndGet());
-        bike.setWheel(bikeComponentFactory.createWheel());
-        bike.setFrame(bikeComponentFactory.createFrame());
-        bike.setHandle(bikeComponentFactory.createHandle());
-        bike.setBasket(bikeComponentFactory.createBasket());
-        return bike;
+    protected void createBike() {
+        bike = new HunanBike();
+        processBike(bikeComponentFactory);
     }
 
     @Override
