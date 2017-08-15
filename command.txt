@@ -1,0 +1,20 @@
+  558  clear
+  559  git status
+  560  echo "5th" >> test.log 
+  561  git commit -am "test network"
+  562  git pull --rebase
+  563  git checkout master
+  564  cat test.log 
+  565  git pull --rebase
+  566  cat test.log 
+  567  git checkout local
+  568  git rebase master
+  569  vim test.
+  570  vim test.log 
+  571  git add .
+  572  git rebase --continue
+  573  git checkout master
+  574  git merge local
+  575  git push origin master
+  576  history
+  577  history | tail -n 20 > command.txt
