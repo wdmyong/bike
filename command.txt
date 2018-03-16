@@ -18,3 +18,6 @@
   575  git push origin master
   576  history
   577  history | tail -n 20 > command.txt
+  ljasdf
+ asldfkj
+asdf
