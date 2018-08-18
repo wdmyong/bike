@@ -2,6 +2,7 @@ package com.wdm.baby;
 
 /**
  * @author wdmyong
+ * @time 2
  */
 public class Book {
     private String name;
