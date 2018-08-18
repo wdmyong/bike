@@ -8,6 +8,7 @@ public class Book {
     private String name;
     private int age;
     private int sex;
+    private long time;
 
     public String getName() {
         return name;
@@ -33,12 +34,21 @@ public class Book {
         this.sex = sex;
     }
 
+    public long getTime() {
+        return time;
+    }
+
+    public void setTime(long time) {
+        this.time = time;
+    }
+
     @Override
     public String toString() {
         return "Book{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", sex=" + sex +
+                ", time=" + time +
                 '}';
     }
 }
