@@ -4,13 +4,13 @@ package com.wdm.baby;
  * @author wdmyong
  */
 public class Book {
-    private String bookName;
+    private String name;
 
-    public String getBookName() {
+    public String asdf() {
         return bookName;
     }
 
-    public void setBookName(String bookName) {
+    public void zcvxccv(String bookName) {
         this.bookName = bookName;
     }
 
