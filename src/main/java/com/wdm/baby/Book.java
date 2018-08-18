@@ -4,20 +4,20 @@ package com.wdm.baby;
  * @author wdmyong
  */
 public class Book {
-    private String bookName;
+    private String name;
 
-    public String getBookName() {
-        return bookName;
+    public String getName() {
+        return name;
     }
 
-    public void setBookName(String bookName) {
-        this.bookName = bookName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override
     public String toString() {
         return "Book{" +
-                "name='" + bookName + '\'' +
+                "name='" + name + '\'' +
                 '}';
     }
 }
