@@ -7,6 +7,7 @@ package com.wdm.baby;
 public class Book {
     private String name;
     private int age;
+    private int sex;
 
     public String getName() {
         return name;
@@ -24,11 +25,20 @@ public class Book {
         this.age = age;
     }
 
+    public int getSex() {
+        return sex;
+    }
+
+    public void setSex(int sex) {
+        this.sex = sex;
+    }
+
     @Override
     public String toString() {
         return "Book{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
+                ", sex=" + sex +
                 '}';
     }
 }
