@@ -28,6 +28,7 @@ public class Book {
     public String toString() {
         return "Book{" +
                 "name='" + name + '\'' +
+                ", age=" + age +
                 '}';
     }
 }
